@@ -101,15 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Firebase Configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCfgW7qst1RzhAP189Fn9HZnxx1R3RJlGo",
-  authDomain: "black-shop-c8f03.firebaseapp.com",
-  databaseURL:
-    "https://black-shop-c8f03-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "black-shop-c8f03",
-  storageBucket: "black-shop-c8f03.firebasestorage.app",
-  messagingSenderId: "152144849929",
-  appId: "1:152144849929:web:dc793e672de2f4f8abdcd8",
-  measurementId: "G-R6PK4YKF5G",
+
 };
     firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
